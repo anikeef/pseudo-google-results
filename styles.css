@@ -1,0 +1,217 @@
+/*---------- Test ----------*/
+
+/*
+div.header,
+div.footer {
+	display: none;
+} */
+
+/*---------- Main ----------*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 14px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.header,
+.footer,
+.intro {
+	color: rgb(117, 117, 117);
+}
+
+li {
+	display: inline;
+	list-style: none;
+}
+
+img {
+	width: 120px;
+}
+
+/*---------- Header, (footer) ----------*/
+
+.header,
+.footer {
+	background-color: rgb(250, 250, 250);
+}
+
+.header {
+	padding-top: 20px;
+	border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.header img {
+	position: relative;
+	top: 5px;
+	left: 15px;
+}
+
+form {
+	display: inline-block;
+	position: absolute;
+	left: 150px;
+}
+
+input {
+	width: 600px;
+	padding: 10px 5px;
+	border-radius: 2px;
+	border: 1px solid #e9e9e9;
+	box-shadow: 0 2px 4px -3px;
+	font-size: 20px;
+}
+
+input:focus,
+input:hover {
+	outline: none;
+	box-shadow: 0 5px 6px #d8d8d8;
+}
+
+/*---------- Navigation ----------*/
+
+.nav {
+	padding-left: 150px;
+	margin-top: 15px;
+}
+
+.nav a {
+	display: inline-block;
+	padding: 12px;
+}
+
+.nav a.active {
+	color: rgb(35, 118, 229);
+	font-weight: bold;
+	border-bottom: 4px solid rgb(35, 118, 229);
+}
+/*---------- Results ----------*/
+
+.main {
+	width: 600px;
+	margin-left: 150px;
+	padding-left: 10px;
+	padding-bottom: 30px;
+}
+
+.main > div {
+	padding-top: 30px;
+}
+
+.main h1 {
+	font-size: 1.2rem;
+	font-weight: normal;
+	margin: 0;
+}
+
+.main a {
+	color: rgb(28, 27, 168);
+}
+
+.main p {
+	line-height: 1.4;
+}
+
+.intro {
+	padding-top: 15px;
+}
+
+.result h2 {
+	font-size: 1rem;
+	font-weight: normal;
+	color: rgb(6, 101, 37);
+}
+
+/*---------- Other requests ----------*/
+
+.other-requests h1 {
+	padding-bottom: 20px;
+}
+
+.other-requests a {
+	display: block;
+	line-height: 1.6;
+}
+
+.left,
+.right {
+	width: 50%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*---------- Pages ----------*/
+
+.pages {
+	text-align: center;
+}
+
+.pages img {
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+.pages a {
+	padding-right: 10px;
+}
+
+/*---------- Footer ----------*/
+
+.footer {
+	border-top: 1px solid rgb(240, 240, 240);
+}
+
+.footer > * {
+	padding: 15px 0 15px 150px;
+}
+
+.country {
+	border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.russia {
+	padding-right: 15px;
+	border-right: 1px solid rgb(240, 240, 240);
+	margin-right: 15px;
+}
+
+.footer-links a {
+	padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
